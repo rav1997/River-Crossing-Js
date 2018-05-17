@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #6699FF;
+}
+
+.main_container{
+    width: 1000px;
+    height: 700px;
+    background: url('./images/Background2.png') no-repeat;
+    background-size: 100% 100%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.container{
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.status-show, p{
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.moves-container{
+    top: 80px;
+}
+.person{
+    position: absolute;
+}
+
+.monster{
+    top: 140px;
+}
+
+.munchkin{
+    top: 200px;
+}
+
+.boat{
+    position: absolute;
+    top: 350px;
+    z-index: 20;
+}
+
+.start-button{
+    padding: 5px 40px;
+    display: block;
+    margin: 5px auto;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 0px;
+}

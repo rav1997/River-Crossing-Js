@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>River Crossing Game</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+    <body>
+        <div id="mc" class = "main_container">
+            <h1>River IQ Puzzle Game</h1>
+            <p class = "status-show"></p>
+            <p class = "moves-container">No. Of moves <span class="move-counter">0</span></p>
+            <div class = "container">
+               <img class = "Person monster" id="Person-1" src="./images/Monster.png">
+               <img class = "Person monster" id="Person-2" src="./images/Monster.png">
+               <img class = "Person monster" id="Person-3" src="./images/Monster.png">
+               <img class = "Person munchkin" id="Person-4" src="./images/Munchkin.png">
+               <img class = "Person munchkin" id="Person-5" src="./images/Munchkin.png">
+               <img class = "Person munchkin" id="Person-6" src="./images/Munchkin.png">
+               <img class = "boat" src="./images/Boat.png" onclick="moveBoat()">
+            </div>
+        </div>
+
+        <button type = "submit" class = "start-button" onclick="reStart()">Start Again</button>
+        <script src = "app.js"></script>
+    </body>
+</html>
