@@ -230,8 +230,3 @@ function moveBoatWithAnimation(p1,p2){
             }
         }
 }
-/*
-function Feature_background(bshbdh){
-csahbsbdhbsdb
-}
-*/
